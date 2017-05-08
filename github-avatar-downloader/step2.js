@@ -7,7 +7,7 @@ function getAndPrintHTML () {
     path: '/http-examples/step2.html'
   };
 
-var allData = "";
+var allData = '';
 
 https.get(requestOptions, function (response) {
 
